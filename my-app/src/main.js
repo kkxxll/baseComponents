@@ -4,9 +4,7 @@ import App from './App.vue'
 
 const app = createApp(App)
 
-import comp from './components'
+import myPlugin from '../packages'
+app.use(myPlugin)
 
-app.use(comp)
-
-console.log(comp, app)
 app.mount('#app')
