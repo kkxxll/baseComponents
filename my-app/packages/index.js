@@ -1,10 +1,8 @@
-import HelloWorld from './components/HelloWorld.vue'
-import Demo from './components/Demo.vue'
+import Icon from './components/Icon.vue'
 
 const myPlugin = {
     install(app) {
-        app.component('HelloWorld', HelloWorld)
-        app.component('Demo', Demo)
+        app.component('Icon', Icon)
     }
 }
 
