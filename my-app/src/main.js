@@ -4,9 +4,9 @@ import App from './App.vue'
 
 const app = createApp(App)
 
-import HelloWorld from './components/HelloWorld.vue'
+import comp from './components'
 
-const _HelloWorld  = app.component('HelloWorld', HelloWorld)
-app.use(_HelloWorld)
+app.use(comp)
 
+console.log(comp, app)
 app.mount('#app')
