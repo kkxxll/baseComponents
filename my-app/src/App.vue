@@ -3,8 +3,8 @@
 
 <template>
   <div>
-    <Icon iconName="icon-fabu" @onClick="handleClick" />
-    <Button />
+    <tiny-icon iconName="icon-fabu" @onClick="handleClick" />
+    <tiny-button />
   </div>
 </template>
 <script>

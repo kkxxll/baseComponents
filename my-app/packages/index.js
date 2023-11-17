@@ -3,8 +3,8 @@ import Button from './components/Button.vue'
 
 const myPlugin = {
     install(app) {
-        app.component('Icon', Icon)
-        app.component('Button', Button)
+        app.component('tiny-icon', Icon)
+        app.component('tiny-button', Button)
     }
 }
 
