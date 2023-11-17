@@ -4,6 +4,7 @@
 <template>
   <div>
     <Icon iconName="icon-fabu" @onClick="handleClick" />
+    <Button />
   </div>
 </template>
 <script>
