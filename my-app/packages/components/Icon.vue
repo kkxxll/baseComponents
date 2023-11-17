@@ -5,6 +5,20 @@
 </template>
 <script>
 import { defineComponent, ref } from 'vue'
+
+function useIcon(props, context) {
+    const svgClass = ref(`icon ${props.svgClass}`)
+    const iconName = ref(`#${props.iconName}`)
+    const handleClick = () => {
+        context.emit('onClick')
+    }
+    return {
+        svgClass,
+        iconName,
+        handleClick
+    }
+}
+
 export default defineComponent({
     props: {
         svgClass: {
@@ -17,15 +31,9 @@ export default defineComponent({
         },
     },
     setup(props, context) {
-        const svgClass = ref(`icon ${props.svgClass}`)
-        const iconName = ref(`#${props.iconName}`)
-        const handleClick = () => {
-            context.emit('onClick')
-        }
+        const useIconData = useIcon(props, context)
         return {
-            svgClass,
-            iconName,
-            handleClick
+            ...useIconData
         }
     }
 })
