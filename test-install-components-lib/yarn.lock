@@ -327,10 +327,10 @@ magic-string@^0.30.5:
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
 
-my-app-tiny-components@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/my-app-tiny-components/-/my-app-tiny-components-0.0.1.tgz#22adfbb70f166aea969ae76683914bcaf61f79ab"
-  integrity sha512-eVlbVJ4Sp30hZZR7hZC4hXqh+httNn/6px/yMS/01YbchDe6B2WytOAeDcqCDXWkRrldZnQa8eFLPIDqG9MPhw==
+my-app-tiny-components@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/my-app-tiny-components/-/my-app-tiny-components-0.0.2.tgz#969ba6a0a6e753a142a314190884880e4829c360"
+  integrity sha512-9V9BwMVtuEeH4Tr2WfJJ8FfQFNzjc+ClV1oqnQ9TxHUc2scGxsb5NORQfp0mfjjPsJW3DXxAW2gDei7pg+75Pw==
   dependencies:
     vue "^3.3.4"
 
