@@ -8,14 +8,12 @@
 </template>
 <script>
 import { defineComponent, ref } from 'vue'
+import Icon from './Icon.vue'
 
 export default defineComponent({
+    extends: Icon,
     props: {
         name: {
-            type: String,
-            default: ''
-        },
-        iconName: {
             type: String,
             default: ''
         },
