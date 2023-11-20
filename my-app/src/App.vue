@@ -4,7 +4,7 @@
 <template>
   <div>
     <tiny-icon iconName="icon-fabu" @onClick="handleClick" />
-    <tiny-button />
+    <tiny-button iconName="icon-download" name="下载" />
   </div>
 </template>
 <script>
