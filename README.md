@@ -1,1 +1,1 @@
-# baseComponents
+# vite 要求npm版本 14+

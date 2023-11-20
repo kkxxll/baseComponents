@@ -1,12 +1,13 @@
 {
-  "name": "my-app",
-  "private": true,
+  "name": "my-app-tiny-components",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build:lib": "vite build --config ./build/lib.config.js"
   },
   "dependencies": {
     "vue": "^3.3.4"
